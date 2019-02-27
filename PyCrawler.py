@@ -33,7 +33,6 @@ def url_list(main_site, start_pos, keyword, limit):
         for pos in all_related.values():
             _ = "".join([main_site, pos])
             new_url= find_related_url(_, keyword)
-            # print('NEW:', new_url)
             all_related={**all_related, **new_url}
     return all_related
 
