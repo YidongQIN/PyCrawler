@@ -5,7 +5,7 @@ import re
 
 
 def html2soup(url):
-    r = requests.get(url, timeout=1)
+    r = requests.get(url, timeout=30)
     r.encoding = 'utf-8'
     html = r.content
     soup = BeautifulSoup(html, 'lxml')
