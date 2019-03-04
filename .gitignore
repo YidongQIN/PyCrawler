@@ -1,2 +1,5 @@
 *.txt
 *.pyc
+*.code-workspace
+settings.json
+launch.json
