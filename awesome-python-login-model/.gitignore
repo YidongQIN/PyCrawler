@@ -1,13 +1,3 @@
-..gitignore.un~
-*.txt
-VScLearn.code-workspace
-*.pyc
-*.code-workspace
-settings.json
-launch.json
-
-# forked [https://github.com/CriseLYJ/awesome-python-login-model]
-# ========
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -114,8 +104,8 @@ venv.bak/
 .mypy_cache/
 
 # Mac os
-.DS_Store
-*/.DS_Store
+.DS_Store 
+*/.DS_Store 
 
 # pycharm
 .idea
